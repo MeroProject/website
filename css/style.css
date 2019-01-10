@@ -108,7 +108,7 @@ span {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #2a2c30;
+  background: #4dabff;
   line-height: 1;
   color: #fff;
   padding: 7px 12px 13px 12px;
@@ -132,7 +132,7 @@ span {
 }
 
 .back-to-top:hover {
-  background: #55b03f;
+  background: #4dabff;
   color: #fff;
 }
 
@@ -189,8 +189,8 @@ span {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
-  background: url(../img/1g.png);
+  height: 100vh;
+  background: linear-gradient(0deg, #4dabff 0%, #62ddff 100%);;
   background-size: 100%;
   position: relative;
   margin-top: 0px;
@@ -216,7 +216,8 @@ span {
 }
 
 #hero .container {
-  margin-top: 230px;
+  padding-top: 200px;
+
 }
 
 #hero h1 {
@@ -225,7 +226,7 @@ span {
   font-weight: 400;
   line-height: 56px;
   font-family: "Open Sans", sans-serif;
-  color: #71c55d;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -236,7 +237,7 @@ span {
 }
 
 #hero h2 {
-  color: #777;
+  color: #fff;
   margin-bottom: 30px;
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
@@ -267,9 +268,9 @@ span {
   border-radius: 0px;
   transition: 0.5s;
   margin-bottom: 30px;
-  border: 2px solid #71c55d;
+  border: 2px solid #fff;
   background: #fff;
-  color: #71c55d;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -385,7 +386,7 @@ span {
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  color: #71c55d;
+  color: #4dabff;
 }
 
 .nav-menu > li {
@@ -413,7 +414,7 @@ span {
 }
 
 .nav-menu ul li:hover > a {
-  color: #71c55d;
+  color: #4dabff;
 }
 
 .nav-menu ul ul {
