@@ -594,7 +594,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #get-started .feature-block {
   background: #4dabff none repeat scroll 0 0;
-  padding: 30px 15px;
+  padding: 50px 15px;
   transition: all 0.5s ease-in-out 0s;
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.2);
 }
