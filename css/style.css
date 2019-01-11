@@ -585,6 +585,9 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 /* Get Started Section
 --------------------------------*/
+
+
+
 #get-started {
   background: #4dabff;
   display: inline-block;
@@ -638,16 +641,21 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 /* About Us Section
 --------------------------------*/
+#about-us {
+  background: #c6ecff;
+}
+
 #about-us img {
   max-width: 100%;
 }
 
 #about-us .about-content {
-  padding-top: 60px;
+  padding-top: 30px;
+
 }
 
 #about-us .about-content h2 {
-  color: #252525;
+  color: #505050;
   font-family: "Open Sans";
   font-size: 39px;
   font-weight: 100;
@@ -658,7 +666,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #about-us .about-content span {
   font-weight: 700;
-  padding-right: 10px;
+  padding-right: 0px;
   text-transform: uppercase;
 }
 
@@ -667,8 +675,47 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #about-us .about-content ul li .fa {
-  padding-right: 20px;
+  padding-right: 0px;
 }
+
+/* About Us Section
+--------------------------------*/
+#about-us2 {
+  background: #b8e4f9;
+}
+
+#about-us2 img {
+  max-width: 100%;
+}
+
+#about-us2 .about-content2 {
+  padding-top: 30px;
+}
+
+#about-us2 .about-content2 h2 {
+  color: #505050;
+  font-family: "Open Sans";
+  font-size: 39px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+#about-us2 .about-content2 span {
+  font-weight: 700;
+  padding-right: 0px;
+  text-transform: uppercase;
+}
+
+#about-us2 .about-content2 ul li {
+  line-height: 36px;
+}
+
+#about-us2 .about-content2 ul li .fa {
+  padding-right: 0px;
+}
+
 
 /* Features Section
 --------------------------------*/
