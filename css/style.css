@@ -677,12 +677,21 @@ body.mobile-nav-active #mobile-nav-toggle i {
   font-family: "Open Sans", sans-serif;
     color: #505050;
   font-size: 50px;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 2px;
   margin-bottom: 15px;
   text-transform: capitalize;
 }
 
+.title3 h3 {
+  font-family: "Open Sans", sans-serif;
+    color: #505050;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
 
 
 
@@ -1061,7 +1070,11 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #pricing .block-pricing h2 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: none;
 }
 
 #pricing .block-pricing ul {
@@ -1081,15 +1094,18 @@ body.mobile-nav-active #mobile-nav-toggle i {
   color: #3c4857;
 }
 
+
+
 #pricing .block-pricing .table .table_btn a {
-  background: #71c55d;
+  background: #4dabff;
   color: #fff;
+  border-radius: 0px;
   margin: 0;
   display: inline-block;
 }
 
 #pricing .block-pricing .table .table_btn a:hover {
-  background: #55b03f;
+  background: #62ddff;
 }
 
 #pricing .block-pricing .table .table_btn a .fa {
