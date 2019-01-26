@@ -269,14 +269,15 @@ span {
   border-radius: 0px;
   transition: 0.5s;
   margin-bottom: 30px;
-  border: 1px solid #fff;
-  background: transparent;
+  border: 1px solid #5c37ff;
+  background: #5c37ff;
   color: #fff;
   text-decoration: none;
+  width: 178px !important;
 }
 
 #hero .btn-get-started:hover {
-  background: #71c55d;
+  background: #5c37ff;
   color: #fff;
 }
 
@@ -641,6 +642,49 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 /* About Us Section
 --------------------------------*/
+#about-us .btn-get-started {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 11px 36px;
+  border-radius: 0px;
+  transition: 0.5s;
+  margin-bottom: 30px;
+  margin-right: 15px;
+  border: 1px solid #5c37ff;
+  background: #5c37ff;
+  color: #fff;
+  text-decoration: none;
+}
+
+#about-us .btn-get-started:hover {
+  background: #5c37ff;
+  color: #fff;
+}
+
+#about-us .btns a {
+  color: #555;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 4px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+@media (max-width: 575px) {
+  #about-us .btns a {
+    margin: 4px 8px;
+  }
+}
+
+#about-us .btns a:hover {
+  color: #71c55d;
+}
+
 #about-us {
   background: #c6ecff;
 }
