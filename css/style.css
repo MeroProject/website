@@ -190,7 +190,7 @@ span {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(0deg, #4dabff 0%, #62ddff 100%);;
+  background: linear-gradient(0deg, #4dabff 0%, #62ddff 100%);
   background-size: 100%;
   position: relative;
   margin-top: 0px;
@@ -269,8 +269,8 @@ span {
   border-radius: 0px;
   transition: 0.5s;
   margin-bottom: 30px;
-  border: 1px solid #5c37ff;
-  background: #5c37ff;
+  border: 1px solid linear-gradient(50deg, #9e44ff 0%, #5c37ff 100%);
+  background: linear-gradient(50deg, #9e44ff 0%, #5c37ff 100%);
   color: #fff;
   text-decoration: none;
     margin-right: 15px;
@@ -655,8 +655,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
   transition: 0.5s;
   margin-bottom: 30px;
   margin-right: 15px;
-  border: 1px solid #5c37ff;
-  background: #5c37ff;
+  border: 1px solid linear-gradient(50deg, #9e44ff 0%, #5c37ff 100%);
+  background: linear-gradient(50deg, #9e44ff 0%, #5c37ff 100%);
   color: #fff;
   text-decoration: none;
 }
@@ -687,7 +687,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #about-us {
-  background: #c6ecff;
+  background: #e0f1ff;
 }
 
 #about-us img {
@@ -725,8 +725,43 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 /* About Us Section
 --------------------------------*/
+
+#about-us2 .btn-get-started {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 11px 36px;
+  border-radius: 0px;
+  transition: 0.5s;
+  margin-bottom: 30px;
+  margin-right: 15px;
+  border: 1px solid linear-gradient(50deg, #9e44ff 0%, #5c37ff 100%);
+  background: linear-gradient(50deg, #9e44ff 0%, #5c37ff 100%);
+  color: #fff;
+  text-decoration: none;
+}
+
+#about-us2 .btn-get-started:hover {
+  background: #5c37ff;
+  color: #fff;
+}
+
+#about-us2 .btns a {
+  color: #555;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 4px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+
 #about-us2 {
-  background: #b8e4f9;
+  background: #d1ebff;
 }
 
 #about-us2 img {
@@ -796,15 +831,52 @@ body.mobile-nav-active #mobile-nav-toggle i {
   text-transform: capitalize;
 }
 
+
+
+#features .btn-get-started {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 11px 36px;
+  border-radius: 0px;
+  transition: 0.5s;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  border: 1px solid linear-gradient(50deg, #9e44ff 0%, #5c37ff 100%);
+  background: linear-gradient(50deg, #9e44ff 0%, #5c37ff 100%);
+  color: #fff;
+  text-decoration: none;
+}
+
+#features .btn-get-started:hover {
+  background: #5c37ff;
+  color: #fff;
+}
+
+#features .btns a {
+  color: #555;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 4px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+
 #features {
-  background: #cce7ff;
+  background: #eff8ff;
   display: inline-block;
   height: 100%;
   width: 100%;
 }
 
 #features .feature-block {
-  background: #cce7ff none repeat scroll 0 0;
+  background: #eff8ff none repeat scroll 0 0;
   padding: 30px 20px;
   margin-bottom: 30px;
   transition: all 0.5s ease-in-out 0s;
