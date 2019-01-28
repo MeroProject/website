@@ -869,16 +869,18 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 
 #features {
-  background: #eff8ff;
+  background: #fff;
   display: inline-block;
   height: 100%;
   width: 100%;
 }
 
 #features .feature-block {
-  background: #eff8ff none repeat scroll 0 0;
-  padding: 30px 20px;
-  margin-bottom: 30px;
+  background: #fff none repeat scroll 0 0;
+
+  margin-bottom: 20px;
+  padding-top: 35px;
+  padding-bottom: 10px;
   transition: all 0.5s ease-in-out 0s;
 }
 
