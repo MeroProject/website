@@ -1210,7 +1210,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 --------------------------------*/
 #pricing .block-pricing {
   background: #fff;
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.09), 0 0 2px 0 rgba(0, 0, 0, 0.09);
   display: inline-block;
   position: relative;
   width: 100%;
@@ -1227,6 +1227,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   padding: 30px 15px;
   max-width: 100%;
   width: 100%;
+
 }
 
 #pricing .block-pricing .table h4 {
@@ -1292,18 +1293,18 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #blog .block-blog .content-blog {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
   display: inline-block;
-  min-height: 125px;
+  min-height: 75px;
   padding: 20px 10px;
   width: 100%;
 }
 
 #blog .block-blog .content-blog h4 {
   line-height: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   text-transform: capitalize;
   font-weight: normal;
   letter-spacing: 0;
-  font-size: 16px;
+  font-size: 25px;
 }
 
 #blog .block-blog .content-blog h4 a {
