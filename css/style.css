@@ -15,7 +15,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
 }
 
 h2 {
@@ -40,8 +39,7 @@ h5 {
 
 a {
   letter-spacing: 2px;
-  text-decoration: none;
-  font-family: "Open Sans", sans-serif;
+  text-decoration: none
 }
 
 ul {
@@ -64,12 +62,10 @@ p {
   letter-spacing: 0.5px;
   line-height: 2;
   margin-bottom: 20px;
-  font-family: "Open Sans", sans-serif;
 }
 
 span {
   letter-spacing: 1px;
-  font-family: "Open Sans", sans-serif;
 }
 
 .img-fluid {
@@ -106,6 +102,10 @@ span {
 
 .fa {
   font-size: 13px;
+}
+
+.row {
+    display: flex;
 }
 
 /* Back to top button */
