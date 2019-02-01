@@ -197,6 +197,7 @@ span {
   background: linear-gradient(0deg, #4dabff 0%, #62ddff 100%);
   background-size: 100%;
   position: relative;
+
   margin-top: 0px;
 }
 
@@ -1294,6 +1295,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #blog .block-blog img {
   width: 100%;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
 }
 
 #blog .block-blog .content-blog {
